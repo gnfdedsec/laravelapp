@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('green', function () {
+Route::get('gugreen', function () {
     return'handsomeboy test';
 });
 Route::get('home', function () {
