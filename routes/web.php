@@ -24,5 +24,8 @@ Route::get('home', function () {
     return view('home');
 });
 #green
+Route::get('profile', function () {
+    return view('profile');
+});
 
 
