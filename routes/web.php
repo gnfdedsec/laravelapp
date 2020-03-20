@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('green', function () {
     return'handsomeboy test';
 });
-Route::get('/home', function () {
+Route::get('home', function () {
     return view('home');
 });
 
