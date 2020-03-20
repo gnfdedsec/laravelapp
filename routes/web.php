@@ -23,6 +23,6 @@ Route::get('green', function () {
 Route::get('home', function () {
     return view('home');
 });
-
+#green
 
 
